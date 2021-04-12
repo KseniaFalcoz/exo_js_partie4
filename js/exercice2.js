@@ -1,9 +1,9 @@
-var animals = ["Crocodile", "Elephant", "Tiger"];
+let animals = ["Crocodile", "Elephant", "Tiger"];
 //    document.getElementById("display").innerHTML = animals;  *afficher immédiatement*
-var newAnimal; // créer une variable vide
+let newAnimal; // créer une variable vide
 
 function displayMassif() {
-    var animals = ["Crocodile", "Elephant", "Tiger"];
+    let animals = ["Crocodile", "Elephant", "Tiger"];
     alert(animals);
     document.getElementById("display").innerHTML = animals;
 
