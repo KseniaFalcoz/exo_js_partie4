@@ -1,4 +1,4 @@
-function flagСolors(){
+function devinette(){
     let a = document.getElementById("colorNumber").value;
     let x = 50;
 
@@ -20,4 +20,3 @@ function clearInput() {
   let emptyField=""
   document.getElementById('colorNumber').value = emptyField;
 }
-

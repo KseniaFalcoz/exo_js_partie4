@@ -1,6 +1,6 @@
 function flagСolors(){
-  var colorNumber = document.getElementById("colorNumber").value;
-
+  var colorNumber = document.getElementById("colorNumber").value.toLowerCase(); 
+  // toLowerCase - tout en minuscules finalement, même si l'utilisateur écrit avec une majuscule
   switch (colorNumber) {
     case 'blanc': 
     alert('Non. Blanc est en deuxième.');
